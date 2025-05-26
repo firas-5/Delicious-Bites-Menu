@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    text-align: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: #ffcccb;
+}
+
+h1,
+h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: auto;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.top-link {
+    display: block;
+    text-align: right;
+    margin: 40px;
+}
+
+.top-link a {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.top-link a:hover,
+.top-link a:focus {
+    background-color: #ff3f31;
+    outline: none;
+}
